@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" role="img" aria-label="divider">
+<path d="M0 12 H300 L312 4 H588 L600 12 H900" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<path d="M0 12 H300 L312 4 H588 L600 12 H900" fill="none" stroke="#f0883e" stroke-width="2.5" stroke-dasharray="70 1000" stroke-dashoffset="1070"><animate attributeName="stroke-dashoffset" from="1070" to="0" dur="3.5s" repeatCount="indefinite"/></path>
+<rect x="296" y="8" width="8" height="8" fill="#30363d"/><rect x="596" y="8" width="8" height="8" fill="#30363d"/>
+</svg>

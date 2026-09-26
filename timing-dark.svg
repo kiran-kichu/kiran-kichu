@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="210" viewBox="0 0 760 210" role="img" aria-label="Animated timing path: data arrives before the capture clock edge">
+<style>.g{font:600 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3}.l{font:12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e}.h{font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3}</style>
+<rect width="760" height="210" fill="#0d1117"/>
+<text x="20" y="28" class="h">A register-to-register path: data must arrive before the next clock edge</text>
+<line x1="94" y1="90" x2="666" y2="90" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="62" width="64" height="56" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="1.5"/><text x="62" y="95" text-anchor="middle" class="g">FF</text>
+<rect x="666" y="62" width="64" height="56" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="1.5"/><text x="698" y="95" text-anchor="middle" class="g">FF</text>
+<text x="62" y="136" text-anchor="middle" class="l">launch</text><text x="698" y="136" text-anchor="middle" class="l">capture</text>
+<rect x="170" y="70" width="64" height="40" rx="6" fill="#161b22" stroke="#30363d"/><text x="202" y="95" text-anchor="middle" class="g">NAND</text><rect x="290" y="70" width="64" height="40" rx="6" fill="#161b22" stroke="#30363d"/><text x="322" y="95" text-anchor="middle" class="g">XOR</text><rect x="410" y="70" width="64" height="40" rx="6" fill="#161b22" stroke="#30363d"/><text x="442" y="95" text-anchor="middle" class="g">ADD</text><rect x="530" y="70" width="64" height="40" rx="6" fill="#161b22" stroke="#30363d"/><text x="562" y="95" text-anchor="middle" class="g">BUF</text>
+<circle r="7" cy="90" fill="#f0883e"><animate attributeName="cx" values="94;94;660;660" keyTimes="0;0.1;0.7;1" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" repeatCount="indefinite"/></circle>
+<path d="M30 180 h60 v-18 h160 v18 h160 v-18 h160 v18 h140" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+<text x="20" y="200" class="l">clk</text>
+<rect x="590" y="150" width="0" height="40" fill="#3fb950" opacity=".18"><animate attributeName="width" values="0;0;80;80;0" keyTimes="0;0.7;0.75;0.95;1" dur="4s" repeatCount="indefinite"/></rect>
+<text x="600" y="168" class="l" fill="#3fb950" opacity="0" style="fill:#3fb950">slack ≥ 0 ✔<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7;0.75;0.95;1" dur="4s" repeatCount="indefinite"/></text>
+</svg>
