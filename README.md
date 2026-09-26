@@ -11,11 +11,15 @@ RTL-to-GDSII physical design with the open-source flow (OpenROAD, OpenLane, Open
 
 > 🔎 **Open to Werkstudent roles, internships and Master's thesis topics in physical design** · Erlangen, Germany
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="terminal-dark.svg"><img alt="Terminal replay: PicoRV32 flow closing at 238 MHz with 0 DRC" src="terminal-light.svg" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg"><img alt="" src="divider-light.svg" width="100%"></picture>
 
 ## ⚡ Featured: PhyFlow, a timing and IR-drop closure agent
 
-An LLM picks the next fix, OpenSTA / OpenROAD measure it on a copy of the design, and plain Python decides whether it stays.
+<picture><source media="(prefers-color-scheme: dark)" srcset="timing-dark.svg"><img alt="A register-to-register timing path: data must arrive before the clock edge" src="timing-light.svg" width="100%"></picture>
+
+PhyFlow keeps every path like this one closed. An LLM picks the next fix, OpenSTA / OpenROAD measure it on a copy of the design, and plain Python decides whether it stays.
 
 ```text
 LLM picks move ─▶ apply to copy ─▶ measure ─▶ hard limits? ─▶ real gain? ─▶ in budget? ─▶ ✅ keep
@@ -30,7 +34,7 @@ LLM picks move ─▶ apply to copy ─▶ measure ─▶ hard limits? ─▶ re
 <a href="https://github.com/kiran-kichu/sta-timing-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-code-dark.svg"><img alt="Code" src="btn-code-light.svg"></picture></a>
 </p>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg"><img alt="" src="divider-light.svg" width="100%"></picture>
 
 ## 🧱 Projects
 
@@ -43,13 +47,13 @@ LLM picks move ─▶ apply to copy ─▶ measure ─▶ hard limits? ─▶ re
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="systolic-dark.svg"><img alt="Animated 8x8 systolic array" src="systolic-light.svg" width="440"></picture>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg"><img alt="" src="divider-light.svg" width="100%"></picture>
 
 ## 🔬 One experiment, three power grids
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="irdrop-dark.svg"><img alt="IR drop: sparse grid 78.6 mV, default 33.7 mV, wider straps 15.3 mV" src="irdrop-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="pdn-dark.svg"><img alt="IR drop for three power grids: 78.6, 33.7 and 15.3 mV" src="pdn-light.svg" width="100%"></picture>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg"><img alt="" src="divider-light.svg" width="100%"></picture>
 
 ## 📝 Things I learned the hard way
 
@@ -71,7 +75,7 @@ A capacitor is invisible to DC analysis. The apparent gain came from removed fil
 A 6.0 µm² per-move cap sat just under Sky130's 6.26 µm² upsize step and silently blocked good fixes. 7.0 µm² fixed it.
 </details>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="divider-dark.svg"><img alt="" src="divider-light.svg" width="100%"></picture>
 
 ## 🛠️ Tools
 
