@@ -1,10 +1,10 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><img alt="Kiran Girishkumar, physical design, RTL to GDSII" src="assets/banner-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg"><img alt="Kiran Girishkumar, physical design, RTL to GDSII" src="banner-light.svg" width="100%"></picture>
 
 <p>
-<a href="https://kiran-kichu.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img alt="Portfolio" src="assets/btn-portfolio-light.svg"></picture></a>
-<a href="https://linkedin.com/in/kiran-girishkumar-45157b189"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg"></picture></a>
-<a href="https://kiran-kichu.github.io/resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg"><img alt="Resume" src="assets/btn-resume-light.svg"></picture></a>
-<a href="mailto:kirangirishkumar543@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img alt="Email me" src="assets/btn-email-light.svg"></picture></a>
+<a href="https://kiran-kichu.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-portfolio-dark.svg"><img alt="Portfolio" src="btn-portfolio-light.svg"></picture></a>
+<a href="https://linkedin.com/in/kiran-girishkumar-45157b189"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-linkedin-dark.svg"><img alt="LinkedIn" src="btn-linkedin-light.svg"></picture></a>
+<a href="https://kiran-kichu.github.io/resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-resume-dark.svg"><img alt="Resume" src="btn-resume-light.svg"></picture></a>
+<a href="mailto:kirangirishkumar543@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-email-dark.svg"><img alt="Email me" src="btn-email-light.svg"></picture></a>
 </p>
 
 RTL-to-GDSII physical design with the open-source flow (OpenROAD, OpenLane, OpenSTA) on Sky130, Nangate45 and ASAP7. I like finding out *why* a number comes out the way it does.
@@ -26,8 +26,8 @@ LLM picks move ─▶ apply to copy ─▶ measure ─▶ hard limits? ─▶ re
 | **WNS −0.38 → 0 ns** | **+10 µm²** | **78.6 → 15.3 mV** |
 
 <p>
-<a href="https://sta-agent-docker.fly.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-demo-dark.svg"><img alt="Live demo" src="assets/btn-demo-light.svg"></picture></a>
-<a href="https://github.com/kiran-kichu/sta-timing-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-code-dark.svg"><img alt="Code" src="assets/btn-code-light.svg"></picture></a>
+<a href="https://sta-agent-docker.fly.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-demo-dark.svg"><img alt="Live demo" src="btn-demo-light.svg"></picture></a>
+<a href="https://github.com/kiran-kichu/sta-timing-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-code-dark.svg"><img alt="Code" src="btn-code-light.svg"></picture></a>
 </p>
 
 ---
@@ -35,19 +35,19 @@ LLM picks move ─▶ apply to copy ─▶ measure ─▶ hard limits? ─▶ re
 ## 🧱 Projects
 
 <p>
-<a href="https://github.com/kiran-kichu/picorv32-physical-design"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-picorv32-dark.svg"><img alt="PicoRV32 RISC-V: 238 MHz on Sky130" src="assets/card-picorv32-light.svg" width="49%"></picture></a>
-<a href="https://github.com/kiran-kichu/systolic-array-ai-accelerator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-systolic-dark.svg"><img alt="8x8 systolic-array MAC: 625 MHz on Nangate45" src="assets/card-systolic-light.svg" width="49%"></picture></a>
-<a href="https://github.com/kiran-kichu/soc-pdn-sky130"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-soc-dark.svg"><img alt="Hierarchical SoC and power grid: 11 µV worst IR drop" src="assets/card-soc-light.svg" width="49%"></picture></a>
-<a href="https://github.com/kiran-kichu/ibex-mcmm-asap7"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-ibex-dark.svg"><img alt="Ibex multi-corner sign-off on ASAP7" src="assets/card-ibex-light.svg" width="49%"></picture></a>
+<a href="https://github.com/kiran-kichu/picorv32-physical-design"><picture><source media="(prefers-color-scheme: dark)" srcset="card-picorv32-dark.svg"><img alt="PicoRV32 RISC-V: 238 MHz on Sky130" src="card-picorv32-light.svg" width="49%"></picture></a>
+<a href="https://github.com/kiran-kichu/systolic-array-ai-accelerator"><picture><source media="(prefers-color-scheme: dark)" srcset="card-systolic-dark.svg"><img alt="8x8 systolic-array MAC: 625 MHz on Nangate45" src="card-systolic-light.svg" width="49%"></picture></a>
+<a href="https://github.com/kiran-kichu/soc-pdn-sky130"><picture><source media="(prefers-color-scheme: dark)" srcset="card-soc-dark.svg"><img alt="Hierarchical SoC and power grid: 11 µV worst IR drop" src="card-soc-light.svg" width="49%"></picture></a>
+<a href="https://github.com/kiran-kichu/ibex-mcmm-asap7"><picture><source media="(prefers-color-scheme: dark)" srcset="card-ibex-dark.svg"><img alt="Ibex multi-corner sign-off on ASAP7" src="card-ibex-light.svg" width="49%"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/systolic-dark.svg"><img alt="Animated 8x8 systolic array" src="assets/systolic-light.svg" width="440"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="systolic-dark.svg"><img alt="Animated 8x8 systolic array" src="systolic-light.svg" width="440"></picture>
 
 ---
 
 ## 🔬 One experiment, three power grids
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/irdrop-dark.svg"><img alt="IR drop: sparse grid 78.6 mV, default 33.7 mV, wider straps 15.3 mV" src="assets/irdrop-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="irdrop-dark.svg"><img alt="IR drop: sparse grid 78.6 mV, default 33.7 mV, wider straps 15.3 mV" src="irdrop-light.svg" width="100%"></picture>
 
 ---
 
